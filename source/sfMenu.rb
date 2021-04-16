@@ -159,7 +159,7 @@ def procOpen
     data = File.readlines(directory)
     n = data.size
     
-    while i < n
+    while i < n#####i<data.size?
       line = data[i].chomp.split(/:/)
       lvi = line[VALUE].to_i
       
